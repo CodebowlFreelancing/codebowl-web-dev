@@ -18,13 +18,12 @@ body {
 }
 
 header {
-  flex: 1 1 auto;
   text-align: center;
-  padding-top: 1em;
+  padding: 1em;
 }
 
 .logo {
-  background: url("/assets/codebowl-logo.svg") center no-repeat;
+  background: url("assets/codebowl-logo.svg") center no-repeat;
   background-color: transparent;
   background-size: contain;
 
@@ -33,7 +32,7 @@ header {
 
 .logo > h1 {
   font-size: 2em;
-  font-size: 7vw;
+  font-size: 7vmin;
   letter-spacing: 0.5em;
 
   opacity: 0.2;
