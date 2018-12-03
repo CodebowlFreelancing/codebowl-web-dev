@@ -1,0 +1,28 @@
+{
+  "name": "codebowl-web",
+  "version": "1.0.0",
+  "description": "Codebowl Oy website",
+  "author": "Aki Ryynänen",
+  "license": "UNLICENSED",
+  "main": "src/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "postcss": "^7.0.6",
+    "postcss-cli": "^6.0.1",
+    "postcss-preset-env": "^6.4.0"
+  },
+  "scripts": {
+    "build": "npm run build:postcss && copyfiles -a -u 1 src/* src/assets/* dist",
+    "build:postcss": "postcss src/style.css -o src/compstyle.css -u postcss-preset-env --no-map",
+    "start": "npm run start:postcss",
+    "start:postcss": "npm run build:postcss -- --verbose --watch"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodebowlFreelancing/codebowl-web.git"
+  }
+}

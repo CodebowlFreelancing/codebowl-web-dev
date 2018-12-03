@@ -1,0 +1,132 @@
+html {
+  font-size: 16px;
+  font-size: 2vh;
+  font-family: "Spectral", serif;
+}
+
+body {
+  color: #1a1a1a;
+  background-color: #f7f7f7;
+
+  min-width: 190px;
+  height: 100vh;
+
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 1 1 auto;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.logo {
+  background: url("/assets/codebowl-logo.svg") center no-repeat;
+  background-color: transparent;
+  background-size: contain;
+
+  padding: 1em;
+}
+
+.logo > h1 {
+  font-size: 2em;
+  font-size: 7vw;
+  letter-spacing: 0.5em;
+
+  opacity: 0.2;
+
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 1em;
+  margin: 0 2vw;
+}
+
+section {
+  max-width: 47vmax;
+  text-align: left;
+}
+
+footer {
+  flex: 0 0 auto;
+  margin-top: auto;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 2vh 3vh;
+}
+
+a {
+  color: #ff6a47;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.emphasize {
+  font-weight: 800;
+}
+
+.fade-in {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.brand-logo {
+  height: 64px;
+  height: 10vh;
+  width: auto;
+}
+
+.linkedin-brand-logo {
+  height: 41px;
+  height: 6.4vh;
+  width: auto;
+
+  margin: 8px 16px;
+  margin: 1.25vh 0 1.25vh 2.5vh;
+}
