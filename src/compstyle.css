@@ -1,6 +1,6 @@
 html {
   font-size: 16px;
-  font-size: calc(14px + (24 - 14) * ((100vw - 240px) / (1600 - 240)));
+  font-size: calc(16px + (24 - 16) * ((100vh - 240px) / (1600 - 240)));
   font-family: "Spectral", serif;
 }
 
@@ -27,12 +27,12 @@ header {
   background-color: transparent;
   background-size: contain;
 
-  padding: 1em;
+  padding: 1em 0;
 }
 
 .logo > h1 {
   font-size: 2em;
-  letter-spacing: 4.5vw;
+  letter-spacing: 4vw;
 
   opacity: 0.3;
 
