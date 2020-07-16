@@ -1,6 +1,6 @@
 html {
-  font-size: 14px;
-  font-size: calc(14px + (48 - 14) * ((100vh - 520px) / (2160 - 520)));
+  font-size: 21px;
+  font-size: calc(21px + (48 - 21) * ((100vh - 520px) / (2160 - 520)));
   font-family: "Spectral", serif;
 }
 
@@ -34,7 +34,7 @@ header {
   font-size: 2em;
   letter-spacing: 4vw;
 
-  opacity: 0.3;
+  opacity: 0.05;
 
   margin: 0;
   padding: 0;
