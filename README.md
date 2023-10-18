@@ -13,3 +13,9 @@ in src directory and use following scripts to update dist and thus the website t
 | build:postcss | Builds compstyle.css that is browserslists supported version of style.css |
 | start         | Runs start:postcss                                                        |
 | start:postcss | Runs build:postcss in watch mode                                          |
+
+## Deploy
+
+Pull `codebowl-web` github repo into `dist` dist directory (and configure that as the remote).
+
+Run `npm run build:postcss` and `npm run build` to update dist. Push changes.
