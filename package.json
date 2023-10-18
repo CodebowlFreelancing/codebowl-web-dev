@@ -7,10 +7,10 @@
   "main": "src/index.html",
   "dependencies": {},
   "devDependencies": {
-    "copyfiles": "^2.3.0",
-    "postcss": "^7.0.32",
-    "postcss-cli": "^7.1.1",
-    "postcss-preset-env": "^6.7.0"
+    "copyfiles": "^2.4.1",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.2.0"
   },
   "scripts": {
     "build": "npm run build:postcss && copyfiles -a -u 1 src/* src/assets/* dist",
